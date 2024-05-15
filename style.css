@@ -43,6 +43,7 @@ ol, ul, menu {
 img {
     max-inline-size: 100%;
     max-block-size: 100%;
+    border-radius: 3px;
 }
 
 /* removes spacing between cells in tables */
@@ -176,6 +177,10 @@ meter {
     padding: 1rem;
     width: 100%;
     border-radius: 4px;
+}
+.card:hover{
+cursor: pointer;
+
 }
 
 .secondary-title {

@@ -181,6 +181,7 @@ meter {
 .card:hover{
 cursor: pointer;
 translate: 1px, 2px, 3px;
+box-shadow: #DAD1E6 4px;
 }
 
 .secondary-title {

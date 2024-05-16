@@ -177,11 +177,12 @@ meter {
     padding: 1rem;
     width: 100%;
     border-radius: 4px;
+    box-shadow: #0633f8 30px;
 }
 .card:hover{
-cursor: pointer;
+cursor: default;
 translate: 1px, 2px, 3px;
-box-shadow: #DAD1E6 4px;
+
 }
 
 .secondary-title {
@@ -218,4 +219,11 @@ ul li {
 
 .basic-container {
     scroll-snap-align: center;
+}
+.button{
+    color: #ff726d;
+    border-color: #ff726d;
+    border-radius: 4px;
+    
+    
 }
